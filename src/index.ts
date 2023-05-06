@@ -42,5 +42,5 @@ app.delete("/api/tasks/:id", (req, res) => {
   res.json({ message: "Task deleted" });});
 
 app.listen(PORT, () => {
-  console.log(`Server listening on port ${PORT}`);
+  console.log(`Server listening on http://localhost:${PORT}`);
 });
