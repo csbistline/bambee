@@ -16,6 +16,9 @@ npm start
 npm run build
 ```
 
+### Tests
+- Import test/Bambee.postman_collection.json into Postman and run the test suite.
+
 ## Further Improvements
 ### Integrate with a real database, rather than managing data in state.
 ### More extensive test suite
